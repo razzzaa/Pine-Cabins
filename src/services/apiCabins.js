@@ -8,5 +8,7 @@ export async function getCabins() {
     throw new Error("cabins cannot be loaded");
   }
 
+  console.log(data);
+
   return data;
 }
